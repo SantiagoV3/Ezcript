@@ -1,0 +1,101 @@
+body{
+  background: #607d8b;
+}
+
+.cuadro {                 /*espacio blanco general*/
+  width: 80%;
+  height: 100%;
+  background: #eef0ec;
+  border-radius: 20px;
+}
+
+.titulo{                  /*titulo de cuadros*/
+  margin-left: 5%;
+}
+
+#espacio_izquierda{       /*espacio invisible izquierda*/
+  float: left;
+  width: 50%;
+  height: 70%;
+}
+
+#espacio_derecha{         /*espacio invisible derecha*/
+  float: left;
+  width: 50%;
+  height: 70%;
+}
+
+#cuadro_consola{          /*espaci blacno lado izquierdo*/
+  float: right;
+  margin-right: 1%;
+}
+
+#cuadro_camara{           /*espaci blacno lado derecho*/
+  float: left;
+  margin-left: 1%;
+}
+
+.sub_cuadro{              /*sub cuadro dentro de cuadro blanco*/
+  width: 90%;
+  height: 85%;
+  margin: 5%;
+  margin-top: 1%;
+  border-radius: 20px;
+}
+
+#camara{                  /*sub cuadro cafe*/
+  background: #826f61;
+  border-radius: 20px;
+
+}
+
+#canvas{                   /*canvas*/
+    margin: 10%;
+    margin-top: 3%;
+}
+
+#consola{                  /*sub cuadro negro*/
+  position: relative;
+  background: #000000;
+}
+
+#codigo{                   /*espacio de texto*/
+  color: #008a3f;
+  margin: 5%;
+  width: 90%;
+  height: 90%;
+  font-size: 20pt;
+  background: #000000;
+  border: #000000;
+  resize: none;
+  outline: none;
+  white-space: pre;
+}
+
+#barra_botones{                   /*botones parte inferior*/
+  float: left;
+  width: 96%;
+  margin: 2%;
+  text-align: center;
+
+}
+
+#punto{                     /*gif grabando*/
+  width: 5%;
+  height: 5%;
+}
+
+.boton{
+  width: 3%;
+  height: 5%;
+}
+
+/*animate.css*/
+
+.animate__animated.animate__faster {
+  --animate-duration: 0s;
+}
+
+.position-absolute {
+  position: absolute !important;
+}
